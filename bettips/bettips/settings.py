@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'bettips.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'backendb',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'backendb.croeg8yi87s6.us-west-1.rds.amazonaws.com',
+        'NAME': 'backendcourse',
+        'USER': 'mysuperuser',
+        'PASSWORD': 'mysuperuser',
+        'HOST': 'backend-course.croeg8yi87s6.us-west-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
