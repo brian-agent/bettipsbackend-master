@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-poca#diel8tj$y6dhr7r!a8@$f^&l--#rc=g@=^loiqnsp*oe1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

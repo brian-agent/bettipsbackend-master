@@ -15,3 +15,7 @@ def home(request):
     
     serializer = FixtureSerializer(fixtures, many=True)
     return Response(serializer.data , status=status.HTTP_200_OK)
+def all_games(request):
+    fixtures=Fixture.objects.all()
+    serializer= FixtureSerializer(fixtures)
+    return Response(serializer.data,status=status.HTTP_200_OK)
